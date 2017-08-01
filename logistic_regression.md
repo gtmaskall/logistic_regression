@@ -139,19 +139,10 @@ cbind(predDat, predict(hyp.out, type = "response",
 ##   compute quantities of interest for us (cf. the Zelig package).
 
 library(effects)
-```
-
-```
-## Error in library(effects): there is no package called 'effects'
-```
-
-```r
 plot(allEffects(hyp.out))
 ```
 
-```
-## Error in allEffects(hyp.out): could not find function "allEffects"
-```
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png)
 
 ```r
 ## Exercise: logistic regression
